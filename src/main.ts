@@ -233,7 +233,6 @@ class CardsView extends ItemView {
     const status = header.createEl('span', { cls: 'qc-status', attr: { 'aria-live': 'polite' } });
     const actions = header.createDiv('qc-actions');
     this.action(actions, '复制', async () => { await navigator.clipboard.writeText(card.draft.text); new Notice('已复制 Markdown'); });
-    this.action(actions, '编辑', () => this.edit(card));
     this.action(actions, '删除', () => this.plugin.remove(card));
     const body = el.createDiv('qc-card-body');
     const measure = body.createDiv({ cls: 'qc-measure', attr: { 'aria-hidden': 'true' } });
