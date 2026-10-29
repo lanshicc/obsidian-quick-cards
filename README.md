@@ -22,7 +22,7 @@
 
 ### 方法一：下载安装包（推荐）
 
-1. 打开 [Releases](https://github.com/lanshicc/obsidian-quick-cards/releases/latest)，下载附件 **`quick-cards-1.0.0.zip`**。不要选择 GitHub 自动生成的 `Source code` 压缩包。
+1. [下载 quick-cards-1.0.0.zip](https://github.com/lanshicc/obsidian-quick-cards/raw/refs/heads/main/downloads/quick-cards-1.0.0.zip)。安装包保存在仓库的 `downloads/` 目录；不要用 GitHub 的「Code → Download ZIP」源码压缩包代替。
 2. 解压得到 `quick-cards` 文件夹。
 3. 将该文件夹复制到目标 Vault 的 `.obsidian/plugins/` 目录下。若 `plugins` 不存在，可以自行创建。
 4. 在 Obsidian 中打开「设置 → 第三方插件」，允许使用第三方插件，启用 **Quick Cards**。

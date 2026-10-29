@@ -8,3 +8,4 @@ TEST-RESULTS.md
 .env
 .env.*
 *.log
+!downloads/quick-cards-*.zip
