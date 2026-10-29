@@ -1,0 +1,10 @@
+node_modules/
+main.js
+release/
+*.zip
+validation/
+TEST-RESULTS.md
+.DS_Store
+.env
+.env.*
+*.log
